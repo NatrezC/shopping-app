@@ -11,7 +11,7 @@ const app = express()
 app.use(express.json())
 
 //Routes
-app.use('/products',)
+app.use('/products', productRoutes)
 
 const PORT =  process.env.PORT ||5001
 
