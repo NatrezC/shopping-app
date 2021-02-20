@@ -13,7 +13,7 @@ const Product = () => {
                     pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus
                 </p>
                 <p className ="info__price">$500</p>
-                <Link to={`/product/${10}`} className="info-button">View</Link>
+                <Link to={`/product/${10}`} className="info__button">View</Link>
 
             </div>
         </div>
