@@ -13,12 +13,13 @@ export const getProducts = () => async (dispatch) => {
             payload: data,
         });
     } catch (error) {
+        console.log('the erro is' , error)
         dispatch({
             type: actionTypes.GET_PRODUCTS_FAIL,
             payload:
                 error.response && error.response.data.message
                     ? error.response.data.message
-                    : error.message,
+                    : error.message
         });
     }
 };
