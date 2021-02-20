@@ -1,4 +1,5 @@
-import './HomeScreen.css'
+import './HomeScreen.css';
+import Product from '../components/Product';
 
 const HomeScreen = () => {
     return (
@@ -6,7 +7,7 @@ const HomeScreen = () => {
             <h2 className="homescreen__title">My Products</h2>
 
             <div className="homescreen__products">
-                Products
+                <Product />
             </div>
             Home Screen
         </div>
