@@ -10,12 +10,12 @@
     place-items: center;
 }
 
-.cartitem_name{
+.cartitem__name{
     text-decoration: none;
     color: #171717;
 }
 
-.cartitem_name:hover{
+.cartitem__name:hover{
     color: gray;
 }
 
