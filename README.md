@@ -38,4 +38,4 @@ I used:
 - able to see the amount of items inside cart
 - make app mobile friendly
 - add up the amount of the multiple items in cart
-- 
+  
