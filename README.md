@@ -27,4 +27,15 @@ I used:
 - CSS
 - VS Code
 - Github
+- Redux
 
+## Challenges
+- Handling redux
+- Connecting mongoDb
+- Connecting frontend to the backend
+
+## Stretch Goals
+- able to see the amount of items inside cart
+- make app mobile friendly
+- add up the amount of the multiple items in cart
+- 
