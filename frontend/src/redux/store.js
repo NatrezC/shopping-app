@@ -14,6 +14,15 @@ const reducer = combineReducers({
 
 const middleware = [thunk];
 
+const cartFromLocalStorage = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
+
+//set initial value so when you refresh you still have items in cart
+const INITIAL_STATE = {
+    cart: {
+        cartItems: cartFromLocalStorage
+    }
+}
+
 const store = createStore(
     reducer, 
     composeWithDevTools(applyMiddleware(...middleware))
