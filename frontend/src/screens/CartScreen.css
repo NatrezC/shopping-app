@@ -1,5 +1,5 @@
 .cartscreen{
-    display: flex;
+    /* display: flex; */
     max-width: 1300px;
     margin: 2rem auto;
 }
@@ -44,6 +44,6 @@
     cursor: pointer;
 }
 
-.cartscreen__right div button{
+.cartscreen__right div button:hover{
     opacity: 0.9;
 }
