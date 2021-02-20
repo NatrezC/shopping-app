@@ -1,3 +1,4 @@
+// Reducers are functions that take the current state and an action as arguments, and return a new state result.
 import * as actionTypes from '../constants/productConstants';
 
 export const getProductsReducer = (state = { products: [] }, action) => {

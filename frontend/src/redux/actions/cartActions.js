@@ -1,3 +1,5 @@
+// An action is a plain JavaScript object that has a type field.You can think of an action as an event that describes something that happened in the application.
+
 //make http request to backend and add it to cart
 
 import * as actionTypes from '../constants/cartConstants';

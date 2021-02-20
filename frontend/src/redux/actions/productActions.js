@@ -6,14 +6,14 @@ export const getProducts = () => async (dispatch) => {
 
         dispatch({ type: actionTypes.GET_PRODUCTS_REQUEST });
 
-        const { data } = await axios.get("/api/products");
+        const { data } = await axios.get("/products");
         //go through the data and return the following
         dispatch({
             type: actionTypes.GET_PRODUCTS_SUCCESS,
             payload: data,
         });
     } catch (error) {
-        console.log('the erro is' , error)
+        console.log('the error is' , error)
         dispatch({
             type: actionTypes.GET_PRODUCTS_FAIL,
             payload:
