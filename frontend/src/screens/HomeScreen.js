@@ -26,6 +26,17 @@ const HomeScreen = () => {
 
             <div className="homescreen__products">
                 <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
             </div>
             Home Screen
         </div>
