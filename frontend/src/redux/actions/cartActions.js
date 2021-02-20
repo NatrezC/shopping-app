@@ -25,7 +25,7 @@ export const addToCart = (id, qty) => async (dispatch, getState) => { //getState
 }
 
 //remove item from cart with id
-export const removeFromCart = () => (dispatch, getState) => {
+export const removeFromCart = (id) => (dispatch, getState) => {
     dispatch({
         type: actionTypes.REMOVE_FROM_CART,
         payload: id
