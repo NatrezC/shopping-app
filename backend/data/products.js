@@ -53,6 +53,25 @@ const products = [
         price: 140,
         countInStock: 10,
     },
+    {
+        name: "XBox Series X",
+        imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgXs8NPkDuIXR43i7AbpwEsYRwPOHPCOZoCLcCghKltvNzk-1aX2szHsyaZz0LCG2UxIBx6cE&usqp=CAc",
+        description:
+            "The Xbox Series X delivers sensationally smooth frame rates of up to 120FPS with the visual pop of HDR. Immerse yourself with sharper characters, brighter worlds, and impossible details with true-to-life 4K.",
+        price: 800,
+        countInStock: 10,
+    },
+    {
+        name: "4k 85 inch Sony Tv",
+        imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-Sm3e1LcjUTnwONafg1Hmc2uQ6o3m73maHivi0sEJiagtiubKsjpgyri&usqp=CAc",
+        description:
+            "With Object-based HDR remaster and Super Bit Mapping 4K HDR technology, our 4K HDR Processor X1™ reproduces enhanced depth, textures and natural colors. You'll see pure colors at higher brightness levels for exceptionally realistic pictures.",
+        price: 2000,
+        countInStock: 8,
+    },
+    
 ];
 
 module.exports = products;
