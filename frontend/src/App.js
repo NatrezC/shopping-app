@@ -10,6 +10,11 @@ import CartScreen from './screens/CartScreen';
 //Components
 import Navbar from './components/Navbar';
 
+//
+import Layout from './components/common/Layout'
+import Login from './components/Login'
+import SignUp from './components/SignUp'
+import Profile from './components/Profile'
 
 function App() {
   return (
@@ -21,7 +26,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomeScreen}/>
           <Route exact path="/product/:id" component={ProductScreen}/>
-          <Route exact path="/cart" component={CartScreen}/>
+          <Route exact path="/cart" component={CartScreen} />
+          <Route exact path={"/login"} component={Login} />
+          <Route exact path={"/register"} component={SignUp} />
+          <Route exact path={"/profile"} component={Profile} />
         </Switch>
       </main>
     </Router>
