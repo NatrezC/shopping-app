@@ -8,6 +8,7 @@ This is an eccomerse app, in which the user will be able to look at different it
 - look at individual items
 - add item to cart
 - delete item in cart
+- Calculate what is in cart
 
 ## Wireframe
 ### Click [here](https://whimsical.com/wireframe-for-shop-app-6opay13p9QuncPsB1ZMpqT) for wireframes
